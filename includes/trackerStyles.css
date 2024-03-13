@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.progress-ring__circle {
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.scroll-arrow {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px; /* Adjust as needed */
+color: white; /* Adjust color as needed */
+cursor: pointer;
+}
+
+.fa-arrow-down {
+margin-right: 8px;
+}
+
+.bg-dark {
+background-color: #333333; /* Dark color for the widget background */
+}
+.bg-light {
+background-color: #ffffff; /* Light color for input fields */
+}
+
+
+/* Grims Css */
+
+/* Use Flexbox for section layout */
+.section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4rem 0; /* Add padding to ensure space between sections */
+}
+
+/* Adjust the height of the sections */
+#section-1, #section-2 {
+min-height: 100vh; /* Minimum height to viewport height */
+overflow: auto; /* Scroll inside section if content overflows */
+}
+
+
+
+
+
+
+
+
